@@ -37,6 +37,7 @@ Plugin 'croaky/vim-colors-github'
 Plugin 'kamwitsta/nordisk'
 Plugin 'tyrannicaltoucan/vim-quantum'
 Plugin 'kamwitsta/mythos'
+"Plugin 'altercation/vim-colors-solarized'
 "Search plugin
 "Plugin 'ggreer/the_silver_searcher'
 call vundle#end()            " required
@@ -81,9 +82,10 @@ let g:netrw_listyle=3
 
 "Colours
 syntax enable
-set background=light
-colorscheme quantum
+set background=dark
+colorscheme nordisk
 
+set t_Co=256
 "Autocomplete
 ":set omnifunc=htmlcomplete#CompleteTags
 "autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
