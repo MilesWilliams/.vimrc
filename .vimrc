@@ -1,1 +1,1 @@
-.vimrc
+/Users/miles/.vimrc
